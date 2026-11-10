@@ -1,0 +1,16 @@
+{
+  "name": "Nayan Gaikwad | Software Developer & Cybersecurity",
+  "short_name": "Nayan Gaikwad",
+  "description": "Portfolio of Nayan Gaikwad, a Cybersecurity undergraduate at SSPU, Pune.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#241014",
+  "theme_color": "#241014",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

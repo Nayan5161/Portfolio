@@ -9,15 +9,11 @@ React + Vite + Tailwind v4. Content lives in `src/data/site.ts`.
 ## Deploy
 GitHub Pages deploys automatically when changes are pushed to `main`. In the repository, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**. The workflow builds the site and publishes `dist/`.
 
-The site is static on GitHub Pages. Backend `/api` features are not hosted there; the contact form uses its email-draft fallback unless `VITE_FORM_ENDPOINT` is configured. Update the canonical/og URLs in `index.html` after choosing the final site URL.
+The site is static on GitHub Pages. Backend `/api` features are not hosted there; the contact form uses its email-draft fallback unless `VITE_FORM_ENDPOINT` is configured. The canonical and social preview URLs in `index.html` assume the repository is named `nayan-portfolio`.
 
-To push this project to a new GitHub repository:
+To publish this project, create a public repository named `nayan-portfolio` under your GitHub account, then push this branch:
 
-    git init
-    git add .
-    git commit -m "Initial portfolio site"
-    git branch -M main
-    git remote add origin https://github.com/<your-username>/<repository-name>.git
+    git remote add origin https://github.com/Nayan5161/nayan-portfolio.git
     git push -u origin main
 
 ## Contact form

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nayan Gaikwad — Portfolio
 React + Vite + Tailwind v4. Content lives in `src/data/site.ts`.
 
@@ -19,3 +20,7 @@ To publish this project, create a public repository named `nayan-portfolio` unde
 ## Contact form
 Without configuration the form validates and opens a mailto draft to nayangaikwad5161@gmail.com.
 For server-side delivery set `VITE_FORM_ENDPOINT` (a JSON POST endpoint such as a Formspree form URL) in `.env` or your host's environment settings and rebuild.
+=======
+# Portfolio
+>>>>>>> c0d0684d5f0e9ec952e9c8d1e3ac8804f8deac50
+
